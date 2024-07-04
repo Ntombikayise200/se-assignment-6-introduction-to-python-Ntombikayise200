@@ -1,0 +1,29 @@
+1.Python Basics:
+Python is a high-level programming language known for its readability and simplicity, with features like dynamic typing, extensive standard library, and support for multiple programming paradigms. 
+It's widely used in web development (Django), data analysis (Pandas), and automation (scripting).
+
+2.Installing Python:
+To install Python, download the installer from python.org, run it, and ensure to add Python to PATH during installation on Windows; on macOS and Linux, use the built-in package manager.
+Verify by running python --version and set up a virtual environment with python -m venv <venv_name>
+
+3.print("Hello, World!")
+4.Data Types and Variables:
+Includes integers, floats, strings, booleans, lists, tuples, sets, and dictionaries. Example: num = 10, name = "Alice".
+
+5.Control Structures:
+Conditional if-else statements and for loops handle decisions and iterations, respectively.
+
+6.Functions in Python:
+Defined with def, functions are reusable blocks of code; example: def add_numbers(a, b): return a + b.
+
+7.Lists and Dictionaries:
+Lists hold ordered collections, dictionaries store key-value pairs; example: numbers = [1, 2, 3], person = {"name": "Alice"}.
+
+8.Exception Handling:
+Manages errors with try, except, and optionally finally blocks; example: try: result = 10 / 0 except ZeroDivisionError as e: print("Error:", e).
+
+9.Modules and Packages:
+Modules contain functions and variables; packages are directories of modules. Import and use like import math; example: math.sqrt(16).
+
+10.File I/O:
+Read from a file with open('example.txt', 'r'), write with open('fruits.txt', 'w'); manage content using read() and write().
